@@ -1,0 +1,8 @@
+#To change the port number, written by Segun Olawale, default for this is 8080
+server:
+  port: 3000
+
+#To stop application from running on web server wat should be none, meanwhile default for this is servlet
+spring:
+  main:
+    web-application-type: servlet
